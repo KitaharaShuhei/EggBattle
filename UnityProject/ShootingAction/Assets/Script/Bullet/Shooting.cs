@@ -13,7 +13,7 @@ public class Shooting : MonoBehaviour {
 	void Update () {
         
         //Spaceキーが押されたとき
-		if (Input.GetKeyDown(KeyCode.A))
+		if (Input.GetMouseButtonDown(1))
         {
             //エッグバレットの複製
             GameObject bullets = Instantiate(EggBullet) as GameObject;

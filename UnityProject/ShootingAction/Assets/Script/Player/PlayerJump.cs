@@ -18,6 +18,7 @@ public class PlayerJump : MonoBehaviour {
             {
                 moveDirection.y = 8;
             }
+            
         }
         moveDirection.y -= 14 * Time.deltaTime; //重力計算
         controller.Move(moveDirection * Time.deltaTime);
